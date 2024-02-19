@@ -8,7 +8,11 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      colors: { green: "#297D5F", cream: "#FCFAF7" },
+      fontFamily: {
+        DmSans: ["var(--font-DMSans)"],
+        DmSerifText: ["var(--font-DMSerifText)"],
+      },
+      colors: { green: "#297D5F", cream: "#FCFAF7", grey: "#121412" },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
