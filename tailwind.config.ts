@@ -12,7 +12,12 @@ const config: Config = {
         DmSans: ["var(--font-DMSans)"],
         DmSerifText: ["var(--font-DMSerifText)"],
       },
-      colors: { green: "#297D5F", cream: "#FCFAF7", grey: "#121412" },
+      colors: {
+        green: "#297D5F",
+        cream: "#FCFAF7",
+        grey: "#121412",
+        borderGreen: "#314528",
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":

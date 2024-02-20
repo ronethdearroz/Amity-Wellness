@@ -8,7 +8,7 @@ export default function Navigation() {
           <div>
             <span className="text-2xl font-bold">LOGO</span>
           </div>
-          <div className="flex gap-10 items-center">
+          <div className="hidden md:flex gap-10 items-center">
             <a>Services</a>
             <a>Referrals</a>
             <a>Library</a>

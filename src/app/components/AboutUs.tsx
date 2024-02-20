@@ -1,24 +1,21 @@
 import Image from "next/image";
-import amityIconOne from "../../../public/AmityIconOne.svg";
-import amityIconTwo from "../../../public/AmityIconTwo.svg";
-import amityIconThree from "../../../public/AmityIconThree.svg";
 
 export default function AboutUs() {
   return (
-    <section className="py-20">
+    <section className="py-20 px-4 md:px-0">
       <div className="container mx-auto">
         <div>
-          <h1 className="text-6xl flex justify-center">About Us</h1>
+          <h2 className="text-6xl flex justify-center">About Us</h2>
         </div>
-        <div className="grid grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div className="flex flex-col items-center text-center">
             <Image
-              src={amityIconOne}
+              src={"/AmityIconOne.svg"}
               width={270}
               height={270}
               alt="Amity Icon One"
             />
-            <h2 className="text-4xl my-2 -mt-10">We treat you like family</h2>
+            <h3 className="text-4xl my-2 -mt-10">We treat you like family</h3>
             <p className="text-grey max-w-80">
               We’ll go the extra mile to make sure you’re getting the services
               you need and deserve.
@@ -26,12 +23,12 @@ export default function AboutUs() {
           </div>
           <div className="flex flex-col items-center text-center">
             <Image
-              src={amityIconTwo}
+              src={"/AmityIconTwo.svg"}
               width={270}
               height={270}
               alt="Amity Icon Two"
             />
-            <h2 className="text-4xl my-2 -mt-10">We listen</h2>
+            <h3 className="text-4xl my-2 -mt-10">We listen</h3>
             <p className="text-grey max-w-80">
               Our mental health informed Support Coordinators work with you to
               understand your needs and advocate on your behalf.
@@ -39,12 +36,12 @@ export default function AboutUs() {
           </div>
           <div className="flex flex-col items-center text-center">
             <Image
-              src={amityIconThree}
+              src={"/AmityIconThree.svg"}
               width={270}
               height={270}
               alt="Amity Icon Three"
             />
-            <h2 className="text-4xl my-2 -mt-10">We’re accountable</h2>
+            <h3 className="text-4xl my-2 -mt-10">We’re accountable</h3>
             <p className="text-grey max-w-80">
               We make sure our team are focused on you and are up to date with
               all the best practices and current strategies. Meaning you’re
